@@ -1,0 +1,10 @@
+<a (click)="goToPokemon()">
+  <div class="container">
+    <div>
+      <div *ngIf="pokemon.imageURL" class="image"><img [src]="pokemon.imageURL" [alt]="pokemon.name" /></div>
+      <h1 class="name">{{pokemon.name}}</h1>
+    </div>
+  </div>
+</a>
+
+<!-- <div class="back-link"><a href="/">&laquo; Back</a></div> -->
